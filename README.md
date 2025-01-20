@@ -1,50 +1,32 @@
-# React + TypeScript + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+<div align="center">
+  <br />
+  <a href="https://youtu.be/ukiGFmZ32YA?feature=shared" target="_blank">
+    <img 
+      src="https://github.com/user-attachments/assets/a582919b-1bdf-4cb2-af44-69b2159cf109" 
+      alt="Project Banner" 
+      width="800" 
+    />
+  </a>
+  <br />
+  
+  <div>
+    <img 
+      src="https://img.shields.io/badge/-React_JS-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB" 
+      alt="React.js Badge" 
+    />
+    <img 
+      src="https://img.shields.io/badge/-Vite-black?style=for-the-badge&logoColor=white&logo=vite&color=646CFF" 
+      alt="Vite Badge" 
+    />
+    <img 
+      src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" 
+      alt="Tailwind CSS Badge" 
+    />
+  </div>
+  
+  <h3 align="center">Modern UI/UX SaaS Website</h3>
+    <p align="center">
+    Xora is a sleek and modern SaaS website designed with cutting-edge technologies like React.js, Vite, and Tailwind CSS.  
+    It showcases seamless animations, a user-friendly interface, and a responsive design, setting a new benchmark in UI/UX development.
+  </p>
+</div>
