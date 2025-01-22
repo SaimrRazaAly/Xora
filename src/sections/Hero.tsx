@@ -1,7 +1,8 @@
-
+import { Element, Link as LinkScroll } from "react-scroll";
+import Button from "../components/Button";
 const Hero = () => {
   return (
-    <div>Hero</div>
+    <section><Button children="bUY NOW"/></section>
   )
 }
 
