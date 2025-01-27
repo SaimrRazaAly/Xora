@@ -3,6 +3,8 @@ import Button from "../components/Button";
 const Hero = () => {
   return (
     <section>
+      <Element name="hero">
+
       <div className="flex items-center  pt-32">
         <div className="px-3 sm:basis-[70%] pt-12 lg:px-20">
           <sup className="caption small-2 uppercase text-p3">Video Editing</sup>
@@ -23,6 +25,7 @@ const Hero = () => {
      
      </div>
       </div>
+      </ Element>
     </section>
   );
 };
