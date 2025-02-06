@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { act, useState } from "react";
 import { SlideDown } from "react-slidedown";
 import "react-slidedown/lib/slidedown.css";
 import { FaqProp } from "../types";
@@ -34,7 +34,8 @@ const FaqItem = ({ item, index }:FaqProp) => {
             "faq-icon relative flex size-12 items-center justify-center rounded-full border-2 border-s2 shadow-400 transition-all duration-500 group-hover:border-s4
             ${active && "before:bg-p1 after:rotate-0 after:bg-p1"}`}
         >
-          <div className="g4 size-11/12 rounded-full shadow-300" />
+          <div className="g4 size-11/12 rounded-full shadow-300 " />
+            <span className={`absolute  text-p3 ${active && " scale-150"}`}>{active ? "-" : "X"}</span>
         </div>
       </div>
 
@@ -49,7 +50,7 @@ const FaqItem = ({ item, index }:FaqProp) => {
           "g5 -bottom-7 -top-7 left-0 right-0 -z-1 rounded-3xl opacity-0 transition-opacity duration-500 absolute
           ${active && "opacity-100"}`}
       >
-        <div className="g4 absolute inset-0.5 -z-1 rounded-3xl" />
+        <div className="g4 absolute inset-0.5  rounded-3xl" />
         <div className="absolute left-8 top-0 h-1 max-md:h-0.5 rounded-full w-40 bg-p1" />
       </div>
     </div>

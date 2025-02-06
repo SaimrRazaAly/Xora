@@ -4,9 +4,10 @@ const Hero = () => {
   return (
     <section>
       <Element name="hero">
+<div className="container">
 
       <div className="flex items-center  pt-32">
-        <div className="px-3 sm:basis-[70%] pt-12 lg:px-28">
+        <div className=" sm:basis-[70%] pt-12 ">
           <sup className="caption small-2 uppercase text-p3">Video Editing</sup>
           <h1 className="mb-4 !text-[65px] h1 text-p4 uppercase max-lg:mb-7 max-lg:h2 max-md:mb-4 max-md:text-5xl lg:!text-[90px] max-md:leading-[59px]">
             Amazingly simple
@@ -25,6 +26,7 @@ const Hero = () => {
      
      </div>
       </div>
+</div>
       </ Element>
     </section>
   );
