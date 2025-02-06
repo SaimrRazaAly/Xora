@@ -10,11 +10,11 @@
   html {
     @apply bg-s1;
   }
-
+  
   body {
     @apply font-poppins text-[16px] tracking-[-0.03em] text-p5 overflow-x-hidden;
   }
-
+  
   a {
     @apply no-underline;
   }
@@ -26,22 +26,39 @@
   button {
     @apply bg-none tracking-[-0.03em];
   }
-
+  
   input {
     @apply tracking-[-0.03em];
   }
 }
 
 @layer utilities {
+  /* Custom Scroll bar */
+  .scrollbar::-webkit-scrollbar {
+    @apply w-2; /* Width of the scrollbar */
+  }
+  
+  .scrollbar::-webkit-scrollbar-track {
+    @apply bg-gradient-to-b from-[#334679] to-[#0c1838] rounded-lg; /* Track background */
+  }
+  
+  .scrollbar::-webkit-scrollbar-thumb {
+    @apply bg-blue-500 rounded-lg; /* Scrollbar thumb */
+  }
+  
+  .scrollbar::-webkit-scrollbar-thumb:hover {
+    @apply bg-blue-600; /* Scrollbar thumb hover effect */
+  }
+
   /* START of Typography */
   .h-num {
     @apply font-inter text-[72px] font-bold leading-[84px];
   }
-
+  
   .h1 {
     @apply text-[84px] font-black leading-[84px] tracking-[-0.03em];
   }
-
+  
   .h2 {
     @apply text-[64px] font-black leading-[64px];
   }
