@@ -86,13 +86,7 @@ const Pricing = () => {
                         }`}
                       >
                         ${" "}
-                        <CountUp 
-                        start={v.priceMonthly}
-                        end={monthly ? v.priceMonthly : v.priceYearly}
-                        duration={0.4}
-                        useEasing={false}
-                        preserveValue
-                        />
+                       {monthly ? v.priceMonthly : v.priceYearly}
                       </div>
                       <div className="small-1 relative -top-3 ml-1 uppercase">
                       / mo
