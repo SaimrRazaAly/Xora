@@ -1,8 +1,9 @@
 import { Element } from "react-scroll";
 import { useState } from "react";
-import CountUp from "react-countup";
+import Counter from "../components/CountUp"
 import { plans } from "../constants";
 import Button from "../components/Button";
+import CountUp from "react-countup";
 const Pricing = () => {
   const [monthly, setMonthly] = useState(false);
 
@@ -86,7 +87,7 @@ const Pricing = () => {
                         }`}
                       >
                         ${" "}
-                       {monthly ? v.priceMonthly : v.priceYearly}
+                        <Counter counting={monthly ?   v.priceYearly : v.priceMonthly} />
                       </div>
                       <div className="small-1 relative -top-3 ml-1 uppercase">
                       / mo
