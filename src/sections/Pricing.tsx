@@ -3,7 +3,6 @@ import { useState } from "react";
 import Counter from "../components/CountUp"
 import { plans } from "../constants";
 import Button from "../components/Button";
-import CountUp from "react-countup";
 const Pricing = () => {
   const [monthly, setMonthly] = useState(false);
 
