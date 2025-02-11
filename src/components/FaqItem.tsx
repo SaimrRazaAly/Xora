@@ -8,7 +8,7 @@ const FaqItem = ({ item, index }: FaqProp) => {
   return (
     <div className="relative z-2 mb-16">
       <div
-        className="group relative flex cursor-pointer items-center justify-between gap-10 px-7"
+        className="group relative flex cursor-pointer items-center justify-between gap-10 px-1 md:px-7"
         onClick={() => setActiveId(active ? null : item.id)}
       >
         <div className="flex-1">

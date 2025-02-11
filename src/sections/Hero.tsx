@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="flex items-center  pt-32">
         <div className=" sm:basis-[70%] pt-12 ">
           <sup className="caption small-2 uppercase text-p3">Video Editing</sup>
-          <h1 className="mb-4 !text-[65px] h1 text-p4 uppercase max-lg:mb-7 max-lg:h2 max-md:mb-4 max-md:text-5xl lg:!text-[90px] max-md:leading-[59px]">
+          <h1 className="mb-4 !text-[55px] h1 text-p4 uppercase max-lg:mb-7 max-lg:h2 max-md:mb-4 max-md:text-5xl lg:!text-[90px] max-md:leading-[59px]">
             Amazingly simple
           </h1>
           <p className="sm:text-start max-w-440 mb-6 body-1 max-md:mb-10 ">
